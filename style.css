@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: peachpuff; 
+}
+
+nav
+{
+    font-family: 'Bitter', serif;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li
+{
+    padding: 0px 15px;
+}
+
+.brand img
+{
+    height: 45px; 
+    margin: auto;
+    padding: 0px 8px 0px 10px; 
+    border-radius: 100%; 
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
