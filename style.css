@@ -46,3 +46,66 @@ nav ul li
     font-weight: 300;
     font-size: 1.3rem;
 }
+
+.brand img
+{
+    height: 45px; 
+    /* margin: auto; */
+    padding: 0px 8px 0px 5px; 
+    border-radius: 100%; 
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.container
+{
+    min-height: 70vh;
+    background-color: rgb(11, 3, 26);
+    color: white;
+    font-family: 'Bitter', serif; 
+    display: flex;
+    margin: 25px auto; 
+    width: 70%; 
+    padding: 34px;
+    background-image: url("Screenshot_Music\ Player_KY1.png");
+}
+
+.songList h1
+{
+    font-weight: 500; 
+} 
+
+.bottom
+{
+    display: flex;
+    position: sticky; 
+    height: 110px;
+    background: rgb(3, 0, 9);
+    color: white;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px 0px;
+}
+
+.icons
+{
+    margin-top: 15px;
+}
+
+.icons i
+{
+    cursor: pointer;
+}
+
+.range#myProgressBar
+{
+    width: 90vw; 
+}
