@@ -94,4 +94,56 @@ nav ul li
 .range#myProgressBar
 {
     width: 90vw; 
+    cursor: pointer;
+}
+
+.songItemContainer
+{
+    margin-top: 35px;
+}
+
+.songItem 
+{
+    height: 25px;
+    display: flex;
+    background-color: white;
+    /* width: 100%; */
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 34px;
+}
+
+.songItem img
+{
+    width: 43px;
+    margin: 0px 23px;
+    /* height: 40px;  */
+    border-radius: 50px;
+}
+
+.timeStamp
+{
+    margin: 0px 23px; 
+}
+
+.timeStamp i 
+{
+    cursor: pointer;
+}
+
+.songInfo
+{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Bitter', serif; 
+}
+
+.songInfo img
+{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
 }
